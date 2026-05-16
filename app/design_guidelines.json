@@ -1,0 +1,126 @@
+{
+  "project_name": "Jal Amrit RO Sales & Service",
+  "theme_archetype": "Archetype 1 (Organic & Earthy - Water Variant) - Light Theme",
+  "design_philosophy": {
+    "core_concept": "Premium, trustworthy local business. Combines the purity of water (crisp whites, ocean blues, transparent glass effects) with accessibility (bilingual typography, warm accents).",
+    "emotion": "Trust, Refreshment, Reliability",
+    "forbidden_patterns": [
+      "Dark fintech-bro mode",
+      "Generic Bootstrap blue/white",
+      "Centered text everywhere",
+      "Inter font for headings"
+    ]
+  },
+  "colors": {
+    "background": {
+      "primary": "#FFFFFF",
+      "secondary": "#F4F9FF",
+      "glass": "rgba(255, 255, 255, 0.7)"
+    },
+    "text": {
+      "primary": "#0F172A",
+      "secondary": "#475569",
+      "inverse": "#FFFFFF",
+      "accent": "#00A3E0"
+    },
+    "brand": {
+      "primary_blue": "#0B3B60",
+      "cyan": "#00A3E0",
+      "offer_orange": "#FF7A00",
+      "whatsapp_green": "#25D366"
+    },
+    "ui": {
+      "border": "#E2E8F0",
+      "border_glass": "rgba(255, 255, 255, 0.4)"
+    }
+  },
+  "typography": {
+    "fonts": {
+      "headings": "'Outfit', sans-serif",
+      "body": "'Mukta', sans-serif"
+    },
+    "scale": {
+      "h1": "text-4xl sm:text-5xl lg:text-6xl tracking-tight leading-none font-bold",
+      "h2": "text-2xl sm:text-3xl lg:text-4xl tracking-tight leading-tight font-semibold",
+      "h3": "text-xl sm:text-2xl font-semibold",
+      "body": "text-base leading-relaxed",
+      "label": "text-sm uppercase tracking-[0.2em]"
+    }
+  },
+  "spacing_and_layout": {
+    "generous_spacing": "Use py-24 for main sections, gap-8 to gap-12 for grids.",
+    "bento_grid": "For Services and 'Why Pure Water', use grid-cols-1 md:grid-cols-8 lg:grid-cols-12 with wide gap-8. Mix tall and square spans.",
+    "container": "Max-w-7xl mx-auto px-4 sm:px-6 lg:px-8",
+    "images": "max-h-[80vh] md:max-h-none on mobile"
+  },
+  "surface_strategies": {
+    "header": "Crystal Glassmorphism: backdrop-blur-xl bg-white/70 border-b border-white/40 shadow-sm",
+    "cards": "Subtle border (border-slate-200) with rounded-2xl bg-white. Hover: -translate-y-1 shadow-lg border-cyan/30 transition-all duration-300",
+    "modals": "Solid white bg, rounded-3xl, shadow-2xl, backdrop-blur overlay (bg-black/30)",
+    "footer": "Contrast Shift: Dark Background (bg-[#0B3B60]), pure white text, py-20"
+  },
+  "components": {
+    "buttons": {
+      "primary": "bg-[#0B3B60] text-white hover:bg-[#00A3E0] rounded-full px-8 py-3 font-semibold transition-all shadow-md hover:shadow-lg",
+      "offer": "bg-[#FF7A00] text-white hover:bg-[#E66E00] rounded-full px-6 py-2 shadow-lg hover:shadow-xl",
+      "whatsapp_floating": "fixed bottom-6 right-6 bg-[#25D366] text-white p-4 rounded-full shadow-[0_8px_30px_rgb(37,211,102,0.4)] hover:scale-110 transition-transform z-50",
+      "call_floating": "fixed bottom-24 right-6 bg-[#0B3B60] text-white p-4 rounded-full shadow-lg hover:scale-110 transition-transform z-50"
+    },
+    "offer_badges": "Absolute positioned ribbon, bg-[#FF7A00] text-white text-xs font-bold px-3 py-1 rounded-bl-lg rounded-tr-lg top-0 right-0",
+    "icons": "lucide-react for all standard UI icons (Droplet, Phone, MessageCircle, Wrench, Settings, CheckCircle). Use strokeWidth={1.5}."
+  },
+  "motion_and_animations": {
+    "scroll": "Use framer-motion for fade-up + slight translateY on section entry.",
+    "hover": "Water ripple effect or gentle lift (-translate-y-1) for product cards.",
+    "carousel": "Smooth auto-play carousel for hero offers."
+  },
+  "testing": {
+    "data_testid": "All interactive elements MUST have role-based data-testid attributes (e.g., data-testid='book-now-modal-button', data-testid='domestic-ro-tab')."
+  },
+  "media_assets": {
+    "hero_background": {
+      "url": "https://static.prod-images.emergentagent.com/jobs/a35ffeab-4442-4d72-9740-0162a565569a/images/2bee99e52d07409790344b513104eb2d9de5fb54b3c27b3e6423fed50beeb284.png",
+      "description": "3D pure water droplet ripple - Use for Hero section background or 'Why Pure Water' section"
+    },
+    "domestic_ro": {
+      "url": "https://static.prod-images.emergentagent.com/jobs/a35ffeab-4442-4d72-9740-0162a565569a/images/8885189b38a3f19eca28be83990c764ad9854d297ed82d39e682f452b4166f8a.png",
+      "description": "High-end domestic RO machine in modern kitchen - Use for Domestic Products hero/card placeholder"
+    },
+    "commercial_ro": {
+      "url": "https://static.prod-images.emergentagent.com/jobs/a35ffeab-4442-4d72-9740-0162a565569a/images/2c4877291f35020a180553fdbfa0f3383fe19e5b3bacd7e7abcec72b7aec0808.png",
+      "description": "Commercial water plant - Use for Commercial Products category image"
+    },
+    "technician_service": {
+      "url": "https://static.prod-images.emergentagent.com/jobs/a35ffeab-4442-4d72-9740-0162a565569a/images/b775e2a9dab1b77889e9657c34a7d5f1d3f5c19311a86503144024516ef3e3c7.png",
+      "description": "Professional technician fixing purifier - Use for Services section hero"
+    },
+    "kitchen_context": {
+      "url": "https://images.unsplash.com/photo-1774716925788-5c4fc543d688?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1NzB8MHwxfHNlYXJjaHwyfHxtb2Rlcm4lMjBraXRjaGVuJTIwaW50ZXJpb3IlMjBicmlnaHR8ZW58MHx8fHwxNzc4MzI4OTMxfDA&ixlib=rb-4.1.0&q=85",
+      "description": "Modern bright kitchen background for contextualizing domestic purifiers"
+    },
+    "water_splash": {
+      "url": "https://images.unsplash.com/photo-1775760329453-ab2511792116?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxODd8MHwxfHNlYXJjaHwzfHxwdXJlJTIwc3BsYXNoaW5nJTIwd2F0ZXIlMjBjbG9zZSUyMHVwfGVufDB8fHx8MTc3ODMyODkzMnww&ixlib=rb-4.1.0&q=85",
+      "description": "Pure water splashing - Use for 'Why Pure Water' visual"
+    },
+    "reference_posters": {
+      "wall_display": "https://customer-assets.emergentagent.com/job_a35ffeab-4442-4d72-9740-0162a565569a/artifacts/6k8z5orv_image.png",
+      "commercial_turquoise": "https://customer-assets.emergentagent.com/job_a35ffeab-4442-4d72-9740-0162a565569a/artifacts/bepa0nnq_image.png",
+      "service_poster_99": "https://customer-assets.emergentagent.com/job_a35ffeab-4442-4d72-9740-0162a565569a/artifacts/jk70jvg5_image.png",
+      "rental_poster": "https://customer-assets.emergentagent.com/job_a35ffeab-4442-4d72-9740-0162a565569a/artifacts/cnvfuet0_image.png",
+      "summer_special": "https://customer-assets.emergentagent.com/job_a35ffeab-4442-4d72-9740-0162a565569a/artifacts/di4ph1ci_image.png",
+      "description": "Reference images provided by the user. Use these as actual displays in the Special Offers Carousel and Product Showcases."
+    }
+  },
+  "instructions_to_main_agent": [
+    "Build the UI completely with standard HTML semantic tags + Tailwind CSS styling + Shadcn/UI for complex interactivity (like dialogs/modals and carousels).",
+    "Ensure global typography uses Google Fonts 'Outfit' (for headings) and 'Mukta' (for body/Hindi content). Import these in index.css.",
+    "Implement a Sticky Header with glassmorphism backdrop (backdrop-blur-xl bg-white/70) that persists on scroll, containing Logo, Nav links, EN/HI toggle, Call button, and Book Now CTA.",
+    "The Hero Section MUST contain an auto-play Carousel (using Embla or Shadcn Carousel) sliding through the Special Offers (₹99 RO Service, ₹299 Rental, ₹4999 Starting Price, Festive Offers). Incorporate the reference poster images provided in the media_assets.",
+    "Include a functional 'Book Now' Modal popup that grabs Name, Location, Contact, Email, and Service Type. Use Shadcn Dialog for accessibility.",
+    "Render fixed, floating WhatsApp and Call buttons on the bottom right (with z-50) at all times for easy mobile access.",
+    "Bilingual logic: Provide a simple EN/HI toggle button in the nav. When active, it should map to Hindi strings for core headings (e.g., 'स्वच्छ पानी, स्वस्थ परिवार').",
+    "Products page needs a tabbed view (Shadcn Tabs) for: Domestic Branded, Domestic Assembled, Commercial Branded, Commercial Assembled.",
+    "Make sure 'data-testid' is attached to every clickable button, navigation link, tab, and form input per the testing requirements."
+  ]
+}
+
